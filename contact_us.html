@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Authentic Kitchen</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/signin.css">
+
+  <style>
+    body {
+      background-color: #dff9fb;
+      font-family: "Times New Roman", Georgia, Serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 5px;
+    }
+  </style>
+ <style>
+  a:link {
+    color: #1f8a94;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #1f8a94;
+    background-color:transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: pink;
+    background-color:transparent;
+    text-decoration:none;
+  }
+
+  a:active {
+    color: rgb(0, 145, 255);
+    background-color:transparent;
+    text-decoration: none;
+  }
+</style>
+</head>
+
+
+
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+
+  <nav class="navbar navbar-expand-lg bg-light ">
+    <div class="container-fluid  ">
+      <a class="navbar-brand fs-1" href="#">Authentic Kitchen</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="float-end">
+        <div class="collapse navbar-collapse float-end" id="navbarNavDropdown">
+          <ul class="navbar-nav float-end ">
+            <li class="nav-item ">
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" style="background-color: #c1e4e9" href="menu.html"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <ul id="section_list" class="dropdown-menu" style="background-color: #c1e4e9">
+                <li><a class="dropdown-item " href="menu.html#Appetizer">Appetizer</a></li>
+                <li><a class="dropdown-item" href="menu.html#Sushi">Sushi</a></li>
+                <li><a class="dropdown-item" href="menu.html#Main Course">Main Course/Entrées</a></li>
+                <li><a class="dropdown-item" href="menu.html#Desserts">Desserts</a></li>
+                <li><a class="dropdown-item" href="menu.html#Beverages">Beverages</a></li>
+              </ul>
+            </li>
+
+
+            <a class="nav-link " aria-current="page" href="about_us.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">Contact us</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  
+  <!-- contact us form -->
+  <div class="text-center">
+
+    <main class="form-signin w-100 m-auto">
+      <form>
+       
+        <h1 class="h3 mb-3 fw-normal">Contact Us</h1>
+        <h6">You can send us a message here:</h6>
+
+          <div class="form-floating">
+            <input type="name" class="form-control" id="floatingInput" placeholder="name">
+            <label for="floatingInput">Name</label>
+          </div>
+          <div class="form-floating">
+            <input type="contactnumber" class="form-control" id="floatingInput" placeholder="number">
+            <label for="floatingInput">Contact Number</label>
+          </div>
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingPassword" placeholder="email">
+            <label for="floatingPassword">Email Address</label>
+          </div>
+          <div class="form-floating">
+            <input type="message" class="form-control" id="floatingPassword" placeholder="message">
+            <label for="floatingPassword">Message</label>
+          </div>
+
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Send Message</button>
+          <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
+      </form>
+  </div>
+
+
+
+  <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
